@@ -1,0 +1,132 @@
+@import './base.css';
+html{
+  color:white;
+  font-family:'Poppins';
+}
+body{
+  background-color:#0E0F19;
+  padding:0 7.5rem;
+}
+nav>span{
+  font-family: 'Poppins';
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+  background: -webkit-linear-gradient(45deg, gold, rgba(255, 217, 0, 0.555));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items:center;
+  padding:2.5rem 0 ;
+}
+#navMid{
+  width: 55%;
+  display:flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:center;
+}
+.navItem{
+  text-decoration: none;
+  font-size: 1.5rem;
+  background: -webkit-linear-gradient(135deg, #ff8fcd, #c7fcff, #94f3ff, #b8ffbc);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Poppins';
+}
+@media screen and (max-width:1024px){
+  html{
+    font-size:10px;
+  }
+  body{
+    padding:1em;
+  }
+  
+  .about{
+    font-size:10px;
+  }
+  .strike1,.strike2{
+    margin:-1em;
+  }
+
+  #content1,#content2,#aboutHeroSec{
+    display:flex;
+    flex-direction:column;
+  }
+  #content1Itemdesc, #content2Itemdesc{
+    font-size:3em;
+  }
+  #content2Itemimg{
+    font-size:2em;
+  }
+  #content1Itemdesc, #content2Itemdesc{
+    width:80vw;
+    padding:1em;
+  }
+  
+    #projectsList{
+        display:grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(9, auto);
+    }
+    .project{
+        width:30rem;
+        padding: 2rem;
+    }
+    .projectImg>img{
+        height:20rem;
+    }
+    .projectHead{
+        font-size:2rem;
+    }
+    .projectHead>button>img{
+        width:4rem;
+        aspect-ratio: 1/1;
+    }
+    .projectTitle{
+        font-size:3rem;
+    }
+    .projectDesc{
+        font-size:1.75rem;
+        line-height: 1.35;
+    }
+    #submitBtn{
+        font-size:2em;
+    }
+    
+    #projectsList{
+      display:grid;
+      grid-template-columns: repeat(1, auto);
+      grid-template-rows: repeat(9, auto);
+  }
+  .project{
+      width:30rem;
+      padding: 2rem;
+  }
+  .projectImg>img{
+      height:20rem;
+  }
+  .projectHead{
+      font-size:2rem;
+  }
+  .projectHead>button>img{
+      width:4rem;
+      aspect-ratio: 1/1;
+  }
+  .projectTitle{
+      font-size:3rem;
+  }
+  .projectDesc{
+      font-size:1.75rem;
+      line-height: 1.35;
+  }
+  #submitBtn{
+      font-size:2em;
+  }
+}
