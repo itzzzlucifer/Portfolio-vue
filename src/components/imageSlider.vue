@@ -2,11 +2,11 @@
 import {onMounted, ref, watch } from 'vue'
 
 
-const slides = [{alt:'Image no. 1', name:'CSS', id:0, src:'src/assets/images/CSS.svg'},
-                  {alt:'Image no. 2', name:'HTML', id:1, src:'src/assets/images/HTML.svg'},
-                  {alt:'Image no. 3', name:'JS', id:2, src:'src/assets/images/JS.svg'},
-                  {alt:'Image no. 4', name:'TW', id:3, src:'src/assets/images/Tailwind.svg'},
-                  {alt:'Image no. 5', name:'VUE', id:4, src:'src/assets/logo.svg'}
+const slides = [{alt:'Image no. 1', name:'CSS', id:0, src:'../assets/images/CSS.svg'},
+                  {alt:'Image no. 2', name:'HTML', id:1, src:'../assets/images/HTML.svg'},
+                  {alt:'Image no. 3', name:'JS', id:2, src:'../assets/images/JS.svg'},
+                  {alt:'Image no. 4', name:'TW', id:3, src:'../assets/images/Tailwind.svg'},
+                  {alt:'Image no. 5', name:'VUE', id:4, src:'../assets/logo.svg'}
                   ]
 let current = ref(0)
 let autoToggle = ref(true)
