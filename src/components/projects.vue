@@ -1,11 +1,11 @@
 <script setup>
 import { ref } from 'vue'
 const projects = ref([{ date: '2022/11/20', name: 'Project 1', src: 'src/assets/images/CSS.svg' },
-{ date: '2022/11/20', name: 'Project 2', src: '../assets/images/HTMl.svg' },
-{ date: '2022/11/21', name: 'Project 3', src: '../assets/images/JS.svg' },
-{ date: '2022/11/22', name: 'Project 4', src: '../assets/images/Tailwind.svg' },
-{ date: '2022/11/22', name: 'Project 5', src: '../assets/images/CSS.svg' },
-{ date: '2022/11/23', name: 'Project 6', src: '../assets/images/HTML.svg' }
+{ date: '2022/11/20', name: 'Project 2', src: 'assets/images/HTMl.svg' },
+{ date: '2022/11/21', name: 'Project 3', src: 'assets/images/JS.svg' },
+{ date: '2022/11/22', name: 'Project 4', src: 'assets/images/Tailwind.svg' },
+{ date: '2022/11/22', name: 'Project 5', src: 'assets/images/CSS.svg' },
+{ date: '2022/11/23', name: 'Project 6', src: 'assets/images/HTML.svg' }
 ])
 </script>
 
