@@ -239,7 +239,7 @@ import projects from '../components/projects.vue'
   width:100%;
   padding: 2.5em 0;
 }
-/*@media screen and (max-width:1024px){
+@media screen and (max-width:1024px){
   .about{
     font-size:10px;
   }
@@ -261,5 +261,5 @@ import projects from '../components/projects.vue'
     width:80vw;
     padding:1em;
   }
-}*/
+}
 </style>
